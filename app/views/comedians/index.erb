@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>
+      Comedians
+    </title>
+  </head>
+  <body>
+    <%@comedians.each do |c|%>
+      <h1>Name =<%=c.name%></h1>
+      <h1>Age =<%=c.age%></h1>
+      <h1>specials =
+        <%=c.specials%>
+      </h1>
+    <%end%>
+  </body>
+
+</html>
